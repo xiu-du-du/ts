@@ -33,4 +33,5 @@ i={
     gender:Gender.Male
 }
 
-i.gender===Gender.Male
+console.log(i.gender===Gender.Male);
+
