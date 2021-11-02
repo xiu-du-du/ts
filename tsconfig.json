@@ -1,0 +1,28 @@
+{
+    "include": [
+        "./src/**/*"
+        /*
+        include 指定要编译的文件
+            路径：
+                **  代表任意目录
+                *   代表任意文件
+        */
+    ],
+    // "exclude": [
+    //     /*
+    //         exclude 排除文件，指定不编译
+    //     */
+    //     "./src/part1/*"
+    // ],
+    // extends
+    // files
+    // 
+
+    "compilerOptions": {
+        // 编译器选项
+        "target":"ES6",
+        // 模块化
+        "module": "ES6",
+        
+    }
+}
